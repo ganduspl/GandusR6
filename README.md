@@ -20,11 +20,16 @@ We do not encourage or support the use of this project in any way that violates 
 
 ###
 
-<h2 align="left">Project made using</h2>
+<h2 align="le<img width="501" alt="Bez tytułu" src="https://github.com/user-attachments/assets/fa42927b-6f67-4b8b-b885-16ed115d5330" />
+ft">How to use</h2>
 
 ###
-
 <div align="left">
+<p> Open Build->GandusR6.exe</p>
+![image](https://github.com/user-attachments/assets/52ff1fed-db82-4c64-9b20-d0528bb50a79)
+<p> Start R6 and wait </p>
+
+
 </div>
 
 ###

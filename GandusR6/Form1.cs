@@ -35,8 +35,8 @@ namespace GandusR6
         private const int HOTKEY_ID_1 = 1;
         private const int HOTKEY_ID_2 = 2;
         private const uint MOD_NONE = 0x0000;
-        private const uint VK_P = 0x50; // Virtual-Key Code for 'P'
-        private const uint VK_INSERT = 0x2D; // Virtual-Key Code for 'Insert'
+        private const uint VK_P = 0x50; // virtual-key Code for 'P'
+        private const uint VK_INSERT = 0x2D; // virtual-key Code for 'Insert'
 
         [StructLayout(LayoutKind.Sequential)]
         public struct INPUT
@@ -62,18 +62,18 @@ namespace GandusR6
         public Form1()
         {
             InitializeComponent();
-            this.FormBorderStyle = FormBorderStyle.None; // Usuñ standardowy border
-            this.Region = new Region(GetRoundedRectPath(this.ClientRectangle, 20)); // Ustaw zaokr¹glony border
+            this.FormBorderStyle = FormBorderStyle.None; // delate border
+            this.Region = new Region(GetRoundedRectPath(this.ClientRectangle, 20)); // set rounded corners
 
             // Dodaj obs³ugê zdarzeñ myszy
             this.MouseDown += new MouseEventHandler(Form1_MouseDown);
-            this.FormClosing += new FormClosingEventHandler(Form1_FormClosing); // Dodaj obs³ugê zdarzenia FormClosing
+            this.FormClosing += new FormClosingEventHandler(Form1_FormClosing); 
             this.KeyPreview = true;
             this.TopMost = true;
             this.ShowInTaskbar = false;
             recoilTimer.Interval = 15;
             LoadWeaponSettings();
-            CreateWeaponButtons(); // Tworzenie przycisków po za³adowaniu ustawieñ broni
+            CreateWeaponButtons(); // create buttons
             panelWpAr.MouseWheel += new MouseEventHandler(panelWpAr_MouseWheel);
 
             // Zarejestruj globalne skróty klawiszowe
@@ -103,7 +103,6 @@ namespace GandusR6
         }
         private void panelWpAr_MouseWheel(object sender, MouseEventArgs e)
         {
-            // Przewijanie w pionie
             panelWpAr.AutoScrollPosition = new Point(panelWpAr.AutoScrollPosition.X, panelWpAr.VerticalScroll.Value - e.Delta);
         }
 
@@ -217,10 +216,7 @@ namespace GandusR6
         }
         public bool IsApplicationRunning(string processName)
         {
-            // Pobierz wszystkie procesy o podanej nazwie
             Process[] processes = Process.GetProcessesByName(processName);
-
-            // SprawdŸ, czy jakiekolwiek procesy s¹ uruchomione
             return processes.Length > 0;
         }
 
@@ -256,26 +252,17 @@ namespace GandusR6
             Rectangle arc = new Rectangle(rect.Location, size);
             GraphicsPath path = new GraphicsPath();
 
-            // Górny lewy róg
             path.AddArc(arc, 180, 90);
-
-            // Górny prawy róg
             arc.X = rect.Right - diameter;
             path.AddArc(arc, 270, 90);
-
-            // Dolny prawy róg
             arc.Y = rect.Bottom - diameter;
             path.AddArc(arc, 0, 90);
-
-            // Dolny lewy róg
             arc.X = rect.Left;
             path.AddArc(arc, 90, 90);
-
             path.CloseFigure();
             return path;
         }
 
-        // Importuj metody z user32.dll
         [DllImport("user32.dll")]
         public static extern bool ReleaseCapture();
 

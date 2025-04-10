@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GandusR6")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b996ffebbadc4865e1a4d0146f82c40523266ba4")]
 [assembly: System.Reflection.AssemblyProductAttribute("GandusR6")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GandusR6")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -25,7 +25,7 @@ We do not encourage or support the use of this project in any way that violates 
 ###
 <div align="left">
 <p> Open Build->GandusR6.exe</p>
-  <img src="https://github.com/user-attachments/assets/52ff1fed-db82-4c64-9b20-d0528bb50a79" height="500" alt="javascript logo"  />
+  <img src="https://github.com/user-attachments/assets/52ff1fed-db82-4c64-9b20-d0528bb50a79" height="300" alt="javascript logo"  />
 <p> Start R6 and wait </p>
 
 

@@ -1,0 +1,17 @@
+C:\Users\gandu\source\repos\GandusR6\GandusR6\bin\Debug\net8.0-windows\GandusR6.exe
+C:\Users\gandu\source\repos\GandusR6\GandusR6\bin\Debug\net8.0-windows\GandusR6.deps.json
+C:\Users\gandu\source\repos\GandusR6\GandusR6\bin\Debug\net8.0-windows\GandusR6.runtimeconfig.json
+C:\Users\gandu\source\repos\GandusR6\GandusR6\bin\Debug\net8.0-windows\GandusR6.dll
+C:\Users\gandu\source\repos\GandusR6\GandusR6\bin\Debug\net8.0-windows\GandusR6.pdb
+C:\Users\gandu\source\repos\GandusR6\GandusR6\obj\Debug\net8.0-windows\GandusR6.Form1.resources
+C:\Users\gandu\source\repos\GandusR6\GandusR6\obj\Debug\net8.0-windows\GandusR6.csproj.GenerateResource.cache
+C:\Users\gandu\source\repos\GandusR6\GandusR6\obj\Debug\net8.0-windows\GandusR6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gandu\source\repos\GandusR6\GandusR6\obj\Debug\net8.0-windows\GandusR6.AssemblyInfoInputs.cache
+C:\Users\gandu\source\repos\GandusR6\GandusR6\obj\Debug\net8.0-windows\GandusR6.AssemblyInfo.cs
+C:\Users\gandu\source\repos\GandusR6\GandusR6\obj\Debug\net8.0-windows\GandusR6.csproj.CoreCompileInputs.cache
+C:\Users\gandu\source\repos\GandusR6\GandusR6\obj\Debug\net8.0-windows\GandusR6.dll
+C:\Users\gandu\source\repos\GandusR6\GandusR6\obj\Debug\net8.0-windows\refint\GandusR6.dll
+C:\Users\gandu\source\repos\GandusR6\GandusR6\obj\Debug\net8.0-windows\GandusR6.pdb
+C:\Users\gandu\source\repos\GandusR6\GandusR6\obj\Debug\net8.0-windows\GandusR6.genruntimeconfig.cache
+C:\Users\gandu\source\repos\GandusR6\GandusR6\obj\Debug\net8.0-windows\ref\GandusR6.dll
+C:\Users\gandu\source\repos\GandusR6\GandusR6\obj\Debug\net8.0-windows\GandusR6.Properties.Resources.resources

@@ -262,6 +262,7 @@ namespace GandusR6
             path.CloseFigure();
             return path;
         }
+         
 
         [DllImport("user32.dll")]
         public static extern bool ReleaseCapture();

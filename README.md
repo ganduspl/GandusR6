@@ -3,7 +3,6 @@
 ###
 
 <p align="left">⚠ Disclaimer 
----
 
 The GandusR6 Anti Recoil project is not affiliated with, endorsed by, or in any way connected to Ubisoft Entertainment. All trademarks, game titles, and logos are the property of their respective owners.
 
@@ -15,7 +14,7 @@ We do not encourage or support the use of this project in any way that violates 
 
 <h2 align="left">About Project</h2>
 
-###
+---
 
 <p align="left">🐱‍💻 Project GandusR6 is not finish </p>
 

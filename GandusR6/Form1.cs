@@ -65,7 +65,6 @@ namespace GandusR6
             this.FormBorderStyle = FormBorderStyle.None; // delate border
             this.Region = new Region(GetRoundedRectPath(this.ClientRectangle, 20)); // set rounded corners
 
-            // Dodaj obs³ugê zdarzeñ myszy
             this.MouseDown += new MouseEventHandler(Form1_MouseDown);
             this.FormClosing += new FormClosingEventHandler(Form1_FormClosing); 
             this.KeyPreview = true;
@@ -75,8 +74,7 @@ namespace GandusR6
             LoadWeaponSettings();
             CreateWeaponButtons(); // create buttons
             panelWpAr.MouseWheel += new MouseEventHandler(panelWpAr_MouseWheel);
-
-            // Zarejestruj globalne skróty klawiszowe
+            
             RegisterHotKey(this.Handle, HOTKEY_ID_1, MOD_NONE, VK_P);
             RegisterHotKey(this.Handle, HOTKEY_ID_2, MOD_NONE, VK_INSERT);
         }
@@ -410,7 +408,7 @@ namespace GandusR6
                 }
                 else
                 {
-                    Debug.WriteLine($"Nie znaleziono ustawieñ dla broni: {wpn}");
+                    Debug.WriteLine($"Nie znaleziono ustawieÃ± dla broni: {wpn}");
                 }
             }
         }

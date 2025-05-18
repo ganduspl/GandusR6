@@ -31,7 +31,13 @@ We do not encourage or support the use of this project in any way that violates 
 <p> Now you can select weapon and set the recoil</p>
 <img src="https://github.com/user-attachments/assets/c4eab9d1-e82a-4eb5-b6c6-5d3b49322c2e" height="300" alt="javascript logo"  />
 
+## 📜 License
 
+Feel free to use and modify this script for educational purposes :D
+
+---
+
+**Made with 💖 by @ganduspl**
 
 
 </div>
